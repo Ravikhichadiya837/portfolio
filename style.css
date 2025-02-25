@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +9,14 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+
+
+
+#tsparticles{
+z-index: 999;
+position: static;
+ }
+
 
 :root{
     --bg-color:#e3edf7;
@@ -492,6 +501,7 @@ section{
 /* ==================== Services section css code ============================ */
 .services{
     position: relative;
+    z-index: 0;
 }
 
 .main-text{
