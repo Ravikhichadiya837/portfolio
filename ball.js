@@ -1,14 +1,14 @@
 
   
   tsParticles.load("tsparticles", {
-    fpsLimit: 60,
+    fpsLimit:9999999 ,
     backgroundMode: {
       enable: true,
       zIndex: -1,
     },
     particles: {
       number: {
-        value: 30,
+        value: 333,
         density: {
           enable: true,
           area: 800,
