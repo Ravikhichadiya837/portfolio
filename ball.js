@@ -4,7 +4,7 @@
     fpsLimit: 60,
     backgroundMode: {
       enable: true,
-      zIndex: 1,
+      zIndex: -1,
     },
     particles: {
       number: {
