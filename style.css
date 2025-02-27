@@ -343,6 +343,8 @@ section{
     width: 400px;
     height: auto;
     z-index: 10;
+    top: -8px;
+    left: 5px;
 }
 
 .rotate-text{
