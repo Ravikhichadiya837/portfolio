@@ -597,8 +597,33 @@ trends.
         </div>
       </div> -->
     </section>
-
     <section class="down-box" id="contact">
+        <div class="contactSkills">
+          <div class="contact-info">
+            <div class="main-text">
+              <h2 class="heading">Contact Me</h2>
+              <span>get in touch with me</span>
+            </div>
+            <form id="contactForm">
+              <div class="input-box">
+  
+                <input type="text"id="name1" placeholder="First Name" />
+                <input type="text"id="name2" placeholder="Last Name" />
+              </div>
+  
+              <input type="email"id="email"  placeholder="Email" />
+              <input type="text" id="Subject"  placeholder="Subject" />
+              
+              <textarea name="#" id="message" cols="30" rows="10"> </textarea>
+              <div class="formBtn">
+                <button type="button" class="btn" onclick="sendMail()" >Send Message</button>    
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- <section class="down-box" id="contact">
       <div class="contactSkills">
         <div class="contact-info">
           <div class="main-text">
@@ -616,13 +641,16 @@ trends.
             <input type="text" placeholder="Subject" />
             
             <textarea name="#" id="" cols="30" rows="10"> </textarea>
-            <div class="formBtn">
+            <!-- <div class="formBtn">
               <button type="submit" class="btn">Send Message</button>
-            </div>
+            </div> -->
+            <!-- <div class="formBtn"> -->
+              <button type="button" class="btn" onclick="sendMail()" >Send Message</button>    
+            <!-- </div> -->
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer>
       <p>
@@ -644,6 +672,9 @@ trends.
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- mixitup cdn js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+     <!-- mail JavaScript -->
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+     <script src="mail.js"></script>
     <script src="script.js"></script>
     <script src="ball.js"></script>
   </body>
