@@ -173,7 +173,7 @@ window.addEventListener("scroll",activeMenu);
 // scroll reveal
 
 ScrollReveal({ 
-    distance:"90px",
+    distance:"1px",
     duration:2000,
     delay:200,
     // reset: true ,
