@@ -4,11 +4,11 @@
 
         function sendMail() {
             let params = {
-                name1: document.getElementById("name1").value,
-                name2: document.getElementById("name2").value,
-                email: document.getElementById("email").value,
-                Subject: document.getElementById("Subject").value,
-                message: document.getElementById("message").value
+                name1: document.getElementById("name1").value.trim(),
+                name2: document.getElementById("name2").value.trim(),
+                email: document.getElementById("email").value.trim(),
+                Subject: document.getElementById("Subject").value.trim(),
+                message: document.getElementById("message").value.trim()
             };
 
             emailjs.send("service_84gza5g", "template_3bzlmi6", params)

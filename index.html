@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#06c1db">
     <title>Ravi khichadiya Portfoliosite</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="/img/RK.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/RK.png" type="image/x-icon" />
     <!-- boxicon css link -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
@@ -59,7 +59,7 @@
           Let's elevate your online presence together!
         </p>
         <div class="btn-box">
-          <a href="mailto:khichadiyaravi77@gmail.com" class="btn"
+          <a href="mailto:khichadiyaravi837@gmail.com" class="btn"
             >Hire Me Now ! <i class="bx bx-right-arrow-alt"></i
           ></a>
           <!-- <a href="img/resume.pdf" target="_blank" class="btn d-CV"
@@ -608,14 +608,14 @@ trends.
             <form id="contactForm">
               <div class="input-box">
   
-                <input type="text"id="name1" placeholder="First Name" />
-                <input type="text"id="name2" placeholder="Last Name" />
+                <input type="text"id="name1" placeholder="First Name"  required/>
+                <input type="text"id="name2" placeholder="Last Name" required />
               </div>
   
-              <input type="email"id="email"  placeholder="Email" />
-              <input type="text" id="Subject"  placeholder="Subject" />
+              <input type="email"id="email"  placeholder="Email" required/>
+              <input type="text" id="Subject"  placeholder="Subject"required />
               
-              <textarea name="#" id="message" cols="30" rows="10"> </textarea>
+              <textarea name="#" id="message" cols="30" rows="10" required> </textarea>
               <div class="formBtn">
                 <button type="button" class="btn" onclick="sendMail()" >Send Message</button>    
               </div>
@@ -623,6 +623,37 @@ trends.
           </div>
         </div>
       </section>
+
+
+
+      <!-- <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>Get in touch with me</span>
+                </div>
+                <form id="contactForm">
+                    <div class="input-box">
+                        <input type="text" id="name1" placeholder="First Name" oninput="validateForm()" />
+                        <input type="text" id="name2" placeholder="Last Name" oninput="validateForm()" />
+                    </div>
+                    <input type="email" id="email" placeholder="Email" oninput="validateForm()" />
+                    <input type="text" id="subject" placeholder="Subject" oninput="validateForm()" />
+                    <textarea id="message" cols="30" rows="10" placeholder="Message" oninput="validateForm()"></textarea>
+                    <div class="formBtn">
+                        <button type="button" class="btn" id="sendButton" onclick="sendMail()" disabled>Send Message</button> 
+                        <button type="button" class="btn" id="validateForm" onclick="sendMail()"  disabled>Send Message </button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+
+
+      
 
     <!-- <section class="down-box" id="contact">
       <div class="contactSkills">
@@ -680,5 +711,6 @@ trends.
      <script src="mail.js"></script>
     <script src="script.js"></script>
     <script src="tsParticles.js"></script>
+    <!-- <script src="validateform.js"></script> -->
   </body>
 </html>
