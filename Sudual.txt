@@ -1,0 +1,76 @@
+સૂપર! ચાલો then **day-wise timetable** આપું, ধরતા **35 દિવસ** નું intensive plan, daily 4–5 કલાકના આધારે, beginners to fresher/entry-level DevOps job માટે:
+
+---
+
+# 🚀 **DevOps Daily Plan (35 Days)**
+
+## 📅 **WEEK 1: Build Tools + Refresh Git + Bash**
+
+✅ **Day 1**: Git advanced commands (stash, cherry-pick, rebase) refresher
+✅ **Day 2**: Bash scripting practice (variables, loops, conditions)
+✅ **Day 3**: Build tools intro: Maven basics
+✅ **Day 4**: Maven practice (simple build + dependency handling)
+✅ **Day 5**: npm / yarn basics (JavaScript projects)
+✅ **Day 6**: Practice building + packaging projects
+✅ **Day 7**: Revision + mini project setup
+
+---
+
+## 📅 **WEEK 2: CI/CD Concepts + Jenkins + GitHub Actions**
+
+✅ **Day 8**: What is CI/CD? (theory + best practices)
+✅ **Day 9**: Jenkins installation + first pipeline
+✅ **Day 10**: Jenkins advanced pipeline (declarative syntax)
+✅ **Day 11**: Jenkins + GitHub integration
+✅ **Day 12**: GitHub Actions basics
+✅ **Day 13**: Build a simple CI/CD pipeline with GitHub Actions
+✅ **Day 14**: Revision + compare Jenkins vs. GitHub Actions
+
+---
+
+## 📅 **WEEK 3: Docker + Containers**
+
+✅ **Day 15**: Docker fundamentals (images, containers, volumes)
+✅ **Day 16**: Dockerfile basics + build custom image
+✅ **Day 17**: docker-compose basics
+✅ **Day 18**: docker-compose with multi-container app
+✅ **Day 19**: Docker networking + storage
+✅ **Day 20**: Push/pull from DockerHub
+✅ **Day 21**: Revision + mini project deployment with Docker
+
+---
+
+## 📅 **WEEK 4: Kubernetes + Cloud Basics**
+
+✅ **Day 22**: Kubernetes architecture (master, nodes, pods)
+✅ **Day 23**: Minikube installation + first K8s cluster
+✅ **Day 24**: kubectl basics (apply, get, delete, describe)
+✅ **Day 25**: Deployments + services
+✅ **Day 26**: ConfigMaps + Secrets
+✅ **Day 27**: AWS basics — EC2, S3
+✅ **Day 28**: AWS IAM + security groups
+
+---
+
+## 📅 **WEEK 5: IaC + Monitoring + Final Polish**
+
+✅ **Day 29**: Terraform basics (init, plan, apply, destroy)
+✅ **Day 30**: Provision simple EC2 with Terraform
+✅ **Day 31**: Prometheus/Grafana basics
+✅ **Day 32**: ELK Stack overview
+✅ **Day 33**: Basic networking concepts (DNS, TCP/IP, load balancing)
+✅ **Day 34**: Python scripting for DevOps
+✅ **Day 35**: Resume building + GitHub portfolio polish + mock interview
+
+---
+
+# 🌟 **Tips:**
+
+✅ Maintain a **daily log** (what you did each day)
+✅ Push all your practice to GitHub
+✅ Build at least **1–2 simple projects** (eg. a CI/CD pipeline + Dockerized app on AWS)
+✅ Join DevOps Discord/Telegram communities for doubts
+
+---
+
+**જો ઇચ્છો**, હું આ **plain text** version પણ આપી શકું કે copy-paste-friendly, ready? 🚀
