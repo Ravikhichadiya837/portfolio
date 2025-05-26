@@ -37,26 +37,6 @@ a{
 }
 
 
-/* Light Mode (default) */
-body {
-  background-color: white;
-  color: black;
-}
-
-/* Dark Mode */
-body.dark-mode {
-  background-color: #121212;
-  color: white;
-}
-
-/* Optional: Button Style */
-#darkModeToggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 10px;
-  cursor: pointer;
-}
 
 body{
     font-family: 'Poppins', sans-serif;
